@@ -189,10 +189,10 @@ body::-webkit-scrollbar-thumb:hover{
 .skills-js{width: 50%; bottom: 0; left: -50%; padding: 3px;}
 
 .skills-bs{width: 85%; bottom: 0; left: -85%; padding: 3px;}
-.skills-wp{width: 20%; bottom: 0; left: -20%; padding: 3px;}
+.skills-wp{width: 75%; bottom: 0; left: -75%; padding: 3px;}
 
 .skills-jq{width: 80%; bottom: 0; left: -80%; padding: 3px;}
-.skills-seo{width: 10%; bottom: 0; left: -10%; padding: 3px;}
+.skills-seo{width: 65%; bottom: 0; left: -65%; padding: 3px;}
 
 .skills-value{border-radius: 2px; padding: 1px 7px; position: relative;}
 
