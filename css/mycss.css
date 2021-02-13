@@ -169,17 +169,17 @@ body::-webkit-scrollbar-thumb:hover{
 
 .skills{overflow: hidden; padding: 3px;}
 
-.html-value{left: -73%; width: 76.6%; bottom: 0;}
+.html-value{left: -88%; width: 90.6%; bottom: 0;}
 
-.css-value{left: -68%; width: 71.6%; bottom: 0;}
+.css-value{left: -83%; width: 85.6%; bottom: 0;}
 
 .js-value{left: -48%; width: 51.6%; bottom: 0;}
 
 .bs-value{left: -83%; width: 86.6%; bottom: 0;}
 
 .jq-value{left: -78%; width: 81.6%; bottom: 0;}
-.wp-value{left: -18%; width: 21.6%; bottom: 0;}
-.seo-value{left: -8%; width: 11.6%; bottom: 0;}
+.wp-value{left: -73%; width: 76.6%; bottom: 0;}
+.seo-value{left: -73%; width: 76%; bottom: 0;}
 
 
 .skills-html{width: 90%; bottom: 0; left: -90%; padding: 3px;}
