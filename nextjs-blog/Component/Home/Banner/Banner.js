@@ -1,31 +1,38 @@
 import React from 'react';
 
+import styles from './Banner.module.css';
+
 const Banner = (props) => {
   return (
-    <div class="container-fluid px-0" id="list-home">
-      <div class="position-relative banner">
-        <div class="py-3 w-100" id="top-nav">
-          <div class="container d-flex justify-content-between">
-            <div class="align-self-center text-white wow flipInX">
-              <h2>
-                <span class="text-info">MR</span> SHAJAD
+    <div className="container-fluid px-0" id="list-home">
+      <div className={`${styles.banner} position-relative`}>
+        <div className="py-3 w-100" id="top-nav">
+          <div className="container d-flex justify-content-between">
+            <div className="align-self-center text-white wow flipInX">
+              <h2 className={styles.logoBox}>
+                <span className="text-info">MR</span> SHAJAD
               </h2>
             </div>
-            <div id="humburger" class="wow flipInX">
-              <div class="humburger-line"></div>
+            <div id="humburger" className={`${styles.humburger} wow flipInX}`}>
+              <div className={styles.humburgerLine}></div>
             </div>
           </div>
         </div>
 
-        <div class="container">
-          <div class="px-2 font-weight-bold position-absolute-center">
+        <div className="container">
+          <div className={`${styles.centerItem} px-2 "}`}>
             <div
-              class="text-white display-md wow bounceInUp"
+              className="text-white display-md wow bounceInUp"
               data-wow-delay="0.5s"
             >
-              <span class="text-white-75">HI, I AM</span>
-              <h5 class="font-weight-bold display-md">SHAJAD SHEIKH</h5>
-              <p class="text-info">Web Designer & Developer.</p>
+              <span className="text-white-75">HI, I AM</span>
+              <h5 className=" display-md">SHAJAD SHEIKH</h5>
+              <p className="text-info">
+                Front end Engineer <span className="text-light">at</span>{' '}
+                <a href="https://www.oneistox.com" target="_blank">
+                  oneistox
+                </a>
+              </p>
             </div>
           </div>
         </div>

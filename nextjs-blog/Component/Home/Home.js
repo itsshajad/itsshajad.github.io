@@ -13,11 +13,11 @@ const Home = (props) => {
     <>
       <Banner />
       <AboutMe />
-      <Resume />
+      {/* <Resume />
       <Achievement />
       <Portfolio />
       <Testimonial />
-      <ContactForm />
+      <ContactForm /> */}
     </>
   );
 };

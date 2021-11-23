@@ -30,7 +30,7 @@ const Layout = (props) => {
 
       <Footer />
       <div id="go-top">
-        <i class="fas fa-arrow-alt-circle-up"></i>
+        <i className="fas fa-arrow-alt-circle-up"></i>
       </div>
     </Head>
   );

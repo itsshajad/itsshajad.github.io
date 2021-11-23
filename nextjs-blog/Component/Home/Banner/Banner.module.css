@@ -1,0 +1,48 @@
+.logoBox {
+  font-family: 'Comforter Brush', cursive;
+}
+
+.banner {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0)),
+    url('../../../public//static/images/bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+}
+.humburger {
+  cursor: pointer;
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+
+.humburgerLine {
+  width: 25px;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #17a2b8;
+}
+.humburgerLine:after,
+.humburgerLine:before {
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #17a2b8;
+  position: absolute;
+}
+.humburgerLine:before {
+  top: -9px;
+}
+.humburgerLine:after {
+  top: 9px;
+}
+
+.centerItem {
+  position: absolute;
+  top: 58%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
