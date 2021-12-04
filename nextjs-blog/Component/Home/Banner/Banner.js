@@ -13,7 +13,7 @@ const Banner = (props) => {
                 <span className="text-info">MR</span> SHAJAD
               </h2>
             </div>
-            <div id="humburger" className={`${styles.humburger} wow flipInX}`}>
+            <div className={`${styles.humburger} wow flipInX}`}>
               <div className={styles.humburgerLine}></div>
             </div>
           </div>

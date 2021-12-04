@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from './AboutMe.module.css';
+
 const AboutMe = (props) => {
   return (
     <>
@@ -19,7 +21,9 @@ const AboutMe = (props) => {
         </div>
       </div>
 
-      <div className="mt-5 bg-img-service text-center container-fluid py-5">
+      {/* <div
+        className={`${styles.bgImgService} mt-5 text-center container-fluid py-5`}
+      >
         <div className="container">
           <p className="er text-white wow lightSpeedIn">SERVICES</p>
           <div className="row justify-content-around my-f-size2 mt-4">
@@ -95,7 +99,7 @@ const AboutMe = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
